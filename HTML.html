@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Football Sim Project </title>
+<link rel="stylesheet" href="CSS.css">
+<script src="Constants and Rules.js"></script>
+<script src="4thDownChoices.js"></script>
+<script src="test.js"></script>
+</head>
+
+<body>
+
+<!--button for testing if the javascript is functioning or attached.-->
+<input id="button1" type="button" value="test button" onclick="button1click()"><br>
+
+<h1>Football Simulator 5000</h1>
+
+<h2>Click button below to run a play! The Play-by-Play will fill out after simulating! Make sure to read that to see how your team did.</h2>
+<!--button to initiate play, not needed in final version, but helps me keep track of things-->
+<input id="button2" type="button" value="Play Game" onclick="playButton()"><br>
+<!--Button to Refresh Game-->
+<!--button to initiate play, not needed in final version, but helps me keep track of things-->
+<input id="button2" type="button" value="Reset for New Game" onclick="refresh()"><br>
+<!--Tracking of the results-->
+<p id="track">Line of Scrimmage: </p><hr id = "los"><br>
+<p id="track">Down: </p><hr id = "down"><br>
+<p id="track">Possession: </p><hr id = "tPoss"><br>
+<p id="track">Previous Play Yards: </p><hr id = "pYards"><br>
+<p id="track">Home Points: </p><hr id = "hPoints"><br>
+<p id="track">Away Points: </p><hr id = "aPoints"><br>
+<p id="track">Time Left: </p><hr id = "tLeft"><br>
+<p id="track">Game Status: </p><hr id = "winner"><br>
+
+<div id="myDIV">
+    Play-by-Play
+</div>
+</body>
+
+</hmtl>
